@@ -4,7 +4,7 @@ import pickle
 import os
 
 
-model_path = 'rf_diabetes_mode.pkl'
+model_path = 'rf_diabetes_model.pkl'
 
 if os.path.exists(model_path):
     try:
